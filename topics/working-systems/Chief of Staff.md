@@ -9,6 +9,8 @@ status: template
 
 Help the owner choose what matters, notice commitments at risk, challenge a plan when evidence warrants it, and coordinate specialist work. Keep an interactive chat for decisions. A scheduled report, if later enabled, should be short and source-linked.
 
+First-time setup: follow [[COS Setup Guide|Set up your AI Chief of Staff]] for access options, a copy-ready prompt and a practice check-in.
+
 ## Configure before use
 
 Fill in your work scope, timezone, approved sources, exclusions, report cadence, chat destination and permission limits. Leave any unknown item unconfigured. Start with read-only manual check-ins; do not assume connectors or scheduled tasks can access the same sources as an interactive chat.

@@ -4,10 +4,10 @@ An empty, Obsidian-friendly framework for working with an AI Chief of Staff and 
 
 ## Start here
 
-1. Clone this repository and open the folder as an Obsidian vault (optional; Markdown works without Obsidian).
+1. Choose **Use this template** on GitHub and create your own **private** repository, then clone your copy. Alternatively, download and extract the ZIP for local use. Open the folder as an Obsidian vault if you like; any Markdown editor works.
 2. Read [AGENTS.md](AGENTS.md) and [INDEX.md](INDEX.md). Replace the generic working-scope descriptions with your own. Keep private and work information in their respective sections.
 3. Add one project under `topics/projects/` and link it from that folder's index. Put current facts and source links in its note; put a dated decision in `decisions/` when a rule actually changes.
-4. Set up [Chief of Staff](topics/working-systems/Chief%20of%20Staff.md) as a **manual, read-only** chat first. Give it only the sources it needs and check its plan against reality. Add a schedule only when the environment, timezone, destination and source access have been tested.
+4. Follow [Set up your AI Chief of Staff](topics/working-systems/COS%20Setup%20Guide.md): choose how your AI tool accesses the vault, fill in the configuration, copy the starting prompt and try a fictional first project. Begin with a **manual, read-only** chat. The [Chief of Staff instructions](topics/working-systems/Chief%20of%20Staff.md) describe its ongoing behavior.
 5. If you have repeatable tasks, use [Agent Board](topics/working-systems/agent-board/INDEX.md). Start with manual review of one ticket and an explicit approval boundary. Automate pickup only after you can verify state, deduplicate retries and detect missed runs.
 6. Record integrations in [Integrations](topics/working-systems/integrations/INDEX.md). Never paste keys into notes or Git. A connection being readable does not mean it can write or that an automated run can access it.
 
@@ -34,3 +34,7 @@ The COS helps choose priorities and follow through. A specialist owns one narrow
 This repository is a **starter**, never a mirror of your working vault. Create your own private copy before adding real content. If you later make that copy public, review its **entire history**, not only current files; deleting a secret from the latest commit does not remove it from history. Keep runtime state, exports, private messages and credentials out of Git. Review `git status`, staged diffs, filenames and remote visibility before pushing.
 
 No schedules, API permissions, integrations or agents are activated by cloning this repository.
+
+## License and costs
+
+This starter is free to use, modify and share, including commercially, under the [MIT license](LICENSE). Retain the copyright and license notice when redistributing it. It is provided without a warranty. Your chosen AI tools or services may have their own costs; no subscription or paid integration is required by these files.
